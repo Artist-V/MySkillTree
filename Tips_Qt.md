@@ -35,7 +35,7 @@ QString::number()  // `int tmp = str.toInt();`
 `void QLineEdit::setValidator(const QValidator *v)`：设置QLineEdit只接受成功验证了模式匹配的数
 
 示例：
-(```)
+```
   QRegExp re("^[A-Za-z0-9_]{1,9}$");
   ui->name_lineEdit->setValidator(new QRegExpValidator(re,this));
-(```)
+```
