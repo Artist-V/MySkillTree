@@ -5,7 +5,7 @@
 | 数组 | 4 | [二维数组中的查找](https://www.cnblogs.com/xiexinbei0318/p/11406799.html) |
 | 数组 | 5 | [替换数组中的空格](https://www.cnblogs.com/xiexinbei0318/p/11406812.html) |
 | 链表 | 6 | [从尾到头反转链表](https://www.cnblogs.com/xiexinbei0318/p/11408333.html) |
-| 树 | 7 | [重建二叉树](https://www.cnblogs.com/xiexinbei0318/p/11409426.html |
+| 树 | 7 | 重建二叉树|
 | 树 | 8 | [二叉树的下一个节点](https://www.cnblogs.com/xiexinbei0318/p/11415895.html) |
 | 栈&队列 | 9 | [用两个栈实现一个队列](https://www.cnblogs.com/xiexinbei0318/p/11406799.html) |
 | 递归&循环 | 10 | [斐波那契数列 + 青蛙跳台阶](https://www.cnblogs.com/xiexinbei0318/p/11406799.html) |
