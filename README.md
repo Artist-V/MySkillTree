@@ -5,7 +5,7 @@
 # 快速索引
 <table>
 <tr>
-  <th>INDEX1</th>
+  <th >INDEX1</th>
   <th>INDEX2</th>
   <th>INDEX3</th>
   <th>INDEX4</th>
@@ -13,7 +13,7 @@
   <th>INDEX6</th>
 </tr>
 <tr>
-  <th>配置</th>
+  <th src="https://github.com/Artist-V/MySkillTree/blob/master/%E9%85%8D%E7%BD%AE.md">配置</th>
   <th>剑指Offer</th>
   <th>计算机网络</th>
   <th>操作系统</th>
