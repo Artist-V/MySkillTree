@@ -3,7 +3,7 @@
 # 知识点
 | INDEX1 |
 | :---: |
-| [零零碎碎](https://github.com/Artist-V/MySkillTree/blob/master/Tips.md) |
+| [零零碎碎](https://github.com/Artist-V/MySkillTree/blob/master/Tips_Qt.md) |
 
 
 # 实验/项目
