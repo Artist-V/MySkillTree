@@ -1,4 +1,6 @@
 ## 要记下的一些小知识点
+1. QString和数值的转换
+2. 随机数
 
 # QString和数值的转换
 
@@ -39,3 +41,7 @@ QString::number()  // `int tmp = str.toInt();`
   QRegExp re("^[A-Za-z0-9_]{1,9}$");
   ui->name_lineEdit->setValidator(new QRegExpValidator(re,this));
 ```
+
+### 随机数
+* 头文件<Qtime>
+* 
