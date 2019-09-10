@@ -32,3 +32,20 @@
 
 ## 零零碎碎
 >零零碎碎的知识点
+
+## 书单
+
+1. Essential C++
+2. C++ Primer
+3. Effeetive C++
+4. More Effeetive C++
+5. C++ 标准程序库
+6. 深入探索C++对象模型
+7. 编程之美
+8. STL源码剖析
+9. TCP/IP详解卷1：协议
+10. TCP-IP详解卷二：实现
+11. TCP-IP详解卷三：TCP事务协议，HTTP，NNTP和UNIX域协议
+12. UNIX网络编程
+13. 大话设计模式
+14. UML和模式应用
