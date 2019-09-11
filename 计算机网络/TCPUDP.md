@@ -7,7 +7,7 @@
 5. [TCP和UDP](https://github.com/Artist-V/MySkillTree/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/TCPUDP.md#tcp%E5%92%8Cudp)
 6. [TCP](https://github.com/Artist-V/MySkillTree/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/TCPUDP.md#tcp)
 
-### TCP拥塞如何控制()
+### TCP拥塞如何控制
 1. 滑动窗口：TCP中采用滑动窗口来进行传输控制，滑动窗口的大小意味着接收方还有多大的缓冲区可以用于接收数据
 
 滑动窗口存在于数据链路层（针对于帧的传送）和传输层（针对字节数据的传送），两者有不同的协议，但基本原理是相近的。
