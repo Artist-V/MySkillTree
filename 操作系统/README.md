@@ -1,12 +1,22 @@
 # 操作系统
 
-1. 多进程与多线程的区别？
-2. 什么时候选择多线程，什么时候采用多进程？
-3. 进程间通信的方式有哪些？各自的优缺点及应用选择？
-4. 多线程与多进程通信方式的区别？
-5. 谈谈你对进程的理解？内核是如何管理进程的？
-6. 多进程编程的优缺点？
-7. 什么是进程死锁？操作进程死锁的原因是什么？
+1. [多进程与多线程的区别？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E5%A4%9A%E8%BF%9B%E7%A8%8B%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB)
+2. [什么时候选择多线程，什么时候采用多进程？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E9%80%89%E6%8B%A9%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E9%87%87%E7%94%A8%E5%A4%9A%E8%BF%9B%E7%A8%8B)
+3. [进程间通信的方式有哪些？各自的优缺点及应用选择？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1%E7%9A%84%E6%96%B9%E5%BC%8F%E6%9C%89%E5%93%AA%E4%BA%9B%E5%90%84%E8%87%AA%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E5%8F%8A%E5%BA%94%E7%94%A8%E9%80%89%E6%8B%A9)
+4. [多线程与多进程通信方式的区别？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%A4%9A%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB)
+5. [谈谈你对进程的理解？内核是如何管理进程的？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E8%B0%88%E8%B0%88%E4%BD%A0%E5%AF%B9%E8%BF%9B%E7%A8%8B%E7%9A%84%E7%90%86%E8%A7%A3%E5%86%85%E6%A0%B8%E6%98%AF%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E8%BF%9B%E7%A8%8B%E7%9A%84)
+6. [多进程编程的优缺点？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%BC%96%E7%A8%8B%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9)
+7. [什么是进程死锁？操作进程死锁的原因是什么？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E4%BB%80%E4%B9%88%E6%98%AF%E8%BF%9B%E7%A8%8B%E6%AD%BB%E9%94%81%E6%93%8D%E4%BD%9C%E8%BF%9B%E7%A8%8B%E6%AD%BB%E9%94%81%E7%9A%84%E5%8E%9F%E5%9B%A0%E6%98%AF%E4%BB%80%E4%B9%88)
+
+8. [保持进程同步的方法有哪些](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E4%BF%9D%E6%8C%81%E8%BF%9B%E7%A8%8B%E5%90%8C%E6%AD%A5%E7%9A%84%E6%96%B9%E6%B3%95%E6%9C%89%E5%93%AA%E4%BA%9B)
+
+9. [线程同步方式有哪些？优缺点？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5%E6%96%B9%E5%BC%8F%E6%9C%89%E5%93%AA%E4%BA%9B%E4%BC%98%E7%BC%BA%E7%82%B9)
+
+10. [为什么采用链表来管理在线用户不采用数据库？为什么采用数据库管理在线用户不采用链表？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%87%87%E7%94%A8%E9%93%BE%E8%A1%A8%E6%9D%A5%E7%AE%A1%E7%90%86%E5%9C%A8%E7%BA%BF%E7%94%A8%E6%88%B7%E4%B8%8D%E9%87%87%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%BA%E4%BB%80%E4%B9%88%E9%87%87%E7%94%A8%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E5%9C%A8%E7%BA%BF%E7%94%A8%E6%88%B7%E4%B8%8D%E9%87%87%E7%94%A8%E9%93%BE%E8%A1%A8)
+
+11. [你是如何实现文件传输的？如果文件过大，如何保证数据正确的传输?](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E4%BD%A0%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E7%9A%84%E5%A6%82%E6%9E%9C%E6%96%87%E4%BB%B6%E8%BF%87%E5%A4%A7%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E6%AD%A3%E7%A1%AE%E7%9A%84%E4%BC%A0%E8%BE%93)
+
+12. [文件传输的过程会占用比较多的资源?你如何解决？](https://github.com/Artist-V/MySkillTree/tree/master/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F#%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E7%9A%84%E8%BF%87%E7%A8%8B%E4%BC%9A%E5%8D%A0%E7%94%A8%E6%AF%94%E8%BE%83%E5%A4%9A%E7%9A%84%E8%B5%84%E6%BA%90%E4%BD%A0%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3)
 
 ***
 ### 什么是线程？什么是进程？
@@ -79,12 +89,3 @@
 临界区、事件、互斥量、信号量
 
 ***
-
-### 为什么采用链表来管理在线用户不采用数据库？为什么采用数据库管理在线用户不采用链表？
-1、当异常关闭服务器时候，当前在线的用户都自动下线。
-2、采用数据库管理在线用户操作更加简单。
-
-### 你是如何实现文件传输的？如果文件过大，如何保证数据正确的传输?
-通过系统调用write,read函数来进行文件的传输。如果文件过大，我是通过进行多次传输，并且每一次传输前都会进行入口参数检查以及对buffer清空。
-
-### 文件传输的过程会占用比较多的资源?你如何解决？
