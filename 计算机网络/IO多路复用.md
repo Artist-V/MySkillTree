@@ -1,6 +1,12 @@
 ## select、poll、epoll
 
 以老师给学生回答做例子：
+1. [循环服务器模型](https://github.com/Artist-V/MySkillTree/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/IO%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8.md#%E5%BE%AA%E7%8E%AF%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A8%A1%E5%9E%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%86%8D%E5%90%8C%E4%B8%80%E6%97%B6%E5%88%BB%E5%8F%AA%E8%83%BD%E5%93%8D%E5%BA%94%E4%B8%80%E4%B8%AA%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E8%AF%B7%E6%B1%82)
+2. [并发服务器模型](https://github.com/Artist-V/MySkillTree/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/IO%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8.md#%E5%B9%B6%E5%8F%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%A8%A1%E5%9E%8B%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E8%AF%B7%E6%B1%82%E5%B9%B6%E4%B8%8D%E6%98%AF%E7%94%B1%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B4%E6%8E%A5%E5%A4%84%E7%90%86%E8%80%8C%E4%B8%94%E7%94%B1%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E5%AD%90%E8%BF%9B%E7%A8%8B%E7%BA%BF%E7%A8%8B%E6%9D%A5%E5%A4%84%E7%90%86%E8%BF%99%E6%A0%B7%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%AF%E4%BB%A5%E5%9C%A8%E5%90%8C%E4%B8%80%E4%B8%AA%E6%97%B6%E5%88%BB%E5%93%8D%E5%BA%94%E5%A4%9A%E4%B8%AA%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E8%AF%B7%E6%B1%82)
+3. [I/O多路复用模型](https://github.com/Artist-V/MySkillTree/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/IO%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8.md#io%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8%E6%A8%A1%E5%9E%8B%E5%86%85%E6%A0%B8%E4%B8%80%E6%97%A6%E5%8F%91%E7%8E%B0%E8%BF%9B%E7%A8%8B%E6%8C%87%E5%AE%9A%E7%9A%84%E4%B8%80%E4%B8%AA%E6%88%96%E8%80%85%E5%A4%9A%E4%B8%AAio%E6%9D%A1%E4%BB%B6%E5%87%86%E5%A4%87%E8%AF%BB%E5%8F%96%E6%97%B6%E5%AE%83%E5%B0%B1%E9%80%9A%E7%9F%A5%E8%AF%A5%E8%BF%9B%E7%A8%8B)
+4. [三种多路复用IO的区别](https://github.com/Artist-V/MySkillTree/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/IO%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8.md#%E4%B8%89%E7%A7%8D%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8io%E7%9A%84%E5%8C%BA%E5%88%AB)
+
+
 
 ### 循环服务器模型：服务器再同一时刻只能响应一个客户端的请求
 
@@ -46,7 +52,7 @@
     * 需要做从用户态到内核态的转换，和数据拷贝，效率低，然后轮询每个fd的状态，会经历多次无谓的遍历
     * 没有解决select中的性能问题，需要轮询pollfd来获取就绪的文件描述符，但是同一时刻可能只有少数的客户端有请求
 
-###  epoll：本质是红黑树
+3. epoll：本质是红黑树
   * 优点：不需要做用户区到内核去的转换，数据在共享内存中，epoll维护的红黑树在共享内存中，内核区和用户区共同操作共享内存
 
 　　　
